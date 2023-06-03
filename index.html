@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image Slider</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+   <h1 style="text-align: center">Imags slider</h1>
+    <div class="slideShowContainer">
+        
+       <a class="prev" onclick="handleSlides(-1)">&#10094;</a>
+       <a class="next" onclick="handleSlides(1)">&#10095;</a>
+        
+       <div class="image__Container">
+        <img id="first_image" src="https://i.pinimg.com/originals/14/09/ab/1409ab178fb9a2fb65c602aeae0741da.jpg" alt="natureImage1">
+       </div>
+     
+       <div class="image__Container">
+        <img id="second_image" src="https://p0.pikist.com/photos/530/962/shorturl-at-hefgv-myspeed-speedcheck-nature-outdoors-mountain-summer-landscape.jpg" alt="natureImage2">
+       </div>
+    
+       <div class="image__Container">
+        <img id="third_image" src="https://i.ytimg.com/vi/668nUCeBHyY/maxresdefault.jpg" alt="natureImage3">
+       </div>
+
+       <div class="image__Container">
+        <img id="forth_image" src="https://chopra.brightspotcdn.com/dims4/default/a30de5d/2147483647/strip/true/crop/5854x2317+0+796/resize/1420x562!/quality/90/?url=http%3A%2F%2Fchopra-brightspot.s3.amazonaws.com%2F72%2F03%2F83b3a32d4557bdb3a85cf4e26e7a%2Fgettyimages-1211213645.jpg" alt="natureImage4">
+       </div>
+
+       
+    </div>
+    <div style="text-align:center;">
+      <span class="dot" onclick="currentSlides(0)">1</span>
+      <span class="dot" onclick="currentSlides(1)">2</span>
+      <span class="dot" onclick="currentSlides(2)">3</span>
+      <span class="dot" onclick="currentSlides(3)">4</span>
+    </div>
+      
+        
+
+   
+    <script src="index.js"></script>
+</body>
+</html>
